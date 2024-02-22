@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+h2{
+    text-align: center;
+    margin-top: 520px;
+    color: rgb(67, 96, 232);
+    font-size: 100px;
+}
+.reservation-heb{
+    width: 90%;
+    margin: 0 auto;
+}
+.reservation-formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 50px;
+    text-align: center;
+}
+input, select{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #1a202c;
+}
+
+.button-reservation{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    background: rgb(67, 96, 232);
+    color: white;
+    border-radius: 30px;
+}
+.p-reservation{
+    font-size: 35px;
+}
+
+@media (min-width: 1024px) {
+    h2{
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    .reservation-heb{
+    }
+    .reservation-formulaire{
+    }
+    label{
+        font-size: 17px;
+    }
+    input, select{
+        width: 190px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .button-reservation{
+        font-size: 17px;
+        width: 220px;
+    }
+    .p-reservation{
+        font-size: 17px;
+    }
+}
